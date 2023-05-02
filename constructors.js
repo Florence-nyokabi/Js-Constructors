@@ -132,7 +132,7 @@ class Quiz extends Question{
         return questionObject += this.questions;
     }
     nextQuestion(){
-        
+        this.currentQuestionIndex++;
     }
     submitAnswer(userAnswer1){
         return userAnswer === this.correctAnswer;
