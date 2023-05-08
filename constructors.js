@@ -29,9 +29,9 @@ class Car{
 }
 const myCar = new Car('Mercedez', 'Corolla', 2022, false);
 myCar.toggleAvailability();
-console.log(myCar.isAvailable);  // changes to false
+console.log(myCar.isAvailable);  
 
-myCar.toggleAvailability();   // changes to true
+myCar.toggleAvailability();   
 console.log(myCar.isAvailable);
 
 
