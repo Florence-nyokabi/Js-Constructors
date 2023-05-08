@@ -21,7 +21,7 @@ class Car{
         this.make = make;
         this.model = model;
         this.year = year;
-        this.isAvailable;
+        this.isAvailable = isAvailable;
     }
     toggleAvailability(){
         this.isAvailable = !this.isAvailable;
